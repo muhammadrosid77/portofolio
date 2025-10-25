@@ -1,0 +1,383 @@
+/* Header */
+body{
+        background: white;
+    }
+    nav{
+        background: skyblue;
+        display: flex;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    nav li{
+        list-style-type: none;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+        transition: 0.5s ease-in-out;
+    }
+    nav ul li.active a{
+        padding: 8px 10px;
+        background: white;
+        color: skyblue;
+        border-radius: 10px;
+    }
+
+/* beranda */
+.beranda-box{
+        border: 3px solid skyblue;
+        border-radius: 20px;
+        padding-left: 20px;
+        margin-bottom: 20px; 
+    }
+    .beranda-box h1{
+        font-size: 60px;
+    }
+    .beranda-box h2{
+        font-size: 60px;
+    }
+    .beranda-box p{
+        font-size: 40px;
+        margin-top: -60px;
+    }
+
+/* Data Diri */
+img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid skyblue;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .datadiri{
+        width: 90%;
+        text-align: center;
+        border: 3px solid skyblue;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+/* Aktivitas */
+.aktiv{
+        border: 3px solid skyblue;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    .list ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* Kontak */
+.style-kontak{
+    padding: 20px;
+    background-color: skyblue ;
+    margin: 20px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.style-kontak h2{
+    font-size: 40px;
+}
+form{
+    width: 500px;
+}
+.main-form{
+    display: flex;
+    margin-top: 10px;
+}
+.form-label{
+    margin-right: 10px;
+}
+.form-control{
+    width: 100%;
+    height: 25px;
+}
+.form-control-p{
+    width: 100%;
+    height: 200px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 45px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Aktivitas CRUD */
+
+/* Index */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-add {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+.table {
+    background-color: white;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+.table thead {
+    background-color: skyblue;
+    color: white;
+}
+
+.aksi {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+form {
+    margin: 0;
+}
+
+/* Create Aktivitas */
+.edit{
+    width: 96vw;
+    border: 2px solid skyblue;
+    border-radius:10px;
+    padding: 20px;
+}
+.edit-input{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nama_aktivitas{
+    width: 73%;
+    height: 30px;
+}
+#tanggal{
+    margin-left: 30px;
+}
+
+.edit button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 420px;
+    position: relative;
+}
+
+
+
+/* Edit */
+.create{
+    width: 96vw;
+    border: 2px solid skyblue;
+    border-radius:10px;
+    padding: 20px;
+}
+.create-input{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nama_aktivitas{
+    width: 73%;
+    height: 30px;
+}
+#tanggal{
+    margin-left: 30px;
+}
+
+.create button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 420px;
+    position: relative;
+}
+.status{
+    margin-top: 20px;
+}
+.status input.largerCheckbox{
+    width: 20px;
+    height: 20px;
+}
+
+/* Show Aktivitas */
+    .container-show {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+        font-family: arial;
+    }
+
+    .container-show h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #2c3e50;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0 4px 1px black;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-body h5,
+    .card-body p {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #333;
+    }
+
+.card-body strong {
+    color: #000;
+}
+
+
+/* Login admin */
+
+.login-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    border: 2px solid lightgrey;
+}
+
+.form-login-admin {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.10);
+}
+
+.form-login-admin h1{
+    text-align: center;
+    margin-top:-20px;
+    margin-bottom: 20px;
+}
+.alert {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #e74c3c;
+    padding: 20px;
+    border:2px solid red;
+}
+
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.form-login-admin label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+
+/* Dashboard Admin */
+.navbar-admin nav{
+    width: 98%;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+}
+.dashboard-menu-admin{
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.dashboard-menu-admin a{
+    color: white;
+    text-decoration: none;
+}
+.dashboard-menu-content ul li a{
+    float: right;
+    margin-left: 100px;
+}
+.content-dashboard{
+    margin-left: 20px;
+}
